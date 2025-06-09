@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pravanya</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-name">PRAVANYA K N S</div>
+
+        <button class="hamburger" aria-label="Toggle menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <div class="nav-links">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#connect" class="nav-link">Connect</a>
+          <button id="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SECTIONS -->
+    <section id="home" class="glass-section">
+      <div class="content">
+        <h1 class="gradient-heading"><span id="typing-text"></span></h1>
+        <p>
+          I'm an enthusiastic and detail-oriented front-end developer with a
+          passion for building intuitive and responsive user interfaces. With a
+          strong foundation in modern web technologies and a creative eye for
+          design, I strive to bridge the gap between functionality and
+          aesthetics. I'm deeply interested in discovering emerging digital
+          trends and expanding my knowledge of innovative, user-centered design
+          principles. My curiosity and commitment to growth continuously drive
+          me to learn new tools and techniques that enhance user experiences and
+          deliver impactful solutions.
+        </p>
+        <a href="resume.pdf" target="_blank" rel="noopener" class="resume-btn"
+          >Download Resume</a
+        >
+      </div>
+    </section>
+
+    <section id="skills" class="glass-section">
+      <div class="content">
+        <h2 class="gradient-heading">Skills</h2>
+        <ul class="skills-list">
+          <li class="skill" data-level="100%">HTML/CSS</li>
+          <li class="skill" data-level="80%">JavaScript</li>
+          <li class="skill" data-level="100%">Tailwind css</li>
+          <li class="skill" data-level="100%">Typescript</li>
+          <li class="skill" data-level="70%">React</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="glass-section">
+      <div class="content">
+        <h2 class="gradient-heading">Projects</h2>
+        <ul>
+          <li>
+            <strong>Portfolio Website:</strong> Built a responsive portfolio
+            using React and Tailwind.
+          </li>
+          <li>
+            <strong>Todo App:</strong> A simple todo list app with local
+            storage.
+          </li>
+          <li>
+            <strong>Weather App:</strong> Fetches real-time weather data using
+            API.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="glass-section">
+      <div class="content">
+        <h2 class="gradient-heading">Experience</h2>
+        <ul>
+          <li>
+            <strong>Portfolio Website:</strong> Built a responsive portfolio
+            using React and Tailwind.
+          </li>
+          <li>
+            <strong>Todo App:</strong> A simple todo list app with local
+            storage.
+          </li>
+          <li>
+            <strong>Weather App:</strong> Fetches real-time weather data using
+            API.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="glass-section">
+      <div class="content">
+        <h2 class="gradient-heading">About</h2>
+        <div class="about-cards">
+          <div class="about-card">
+            <div class="icon-box">
+              <img src="icons/bulb.png" alt="Creative Thinker" />
+            </div>
+            <h3>Creative Thinker</h3>
+            <p>I enjoy brainstorming and designing user-friendly interfaces.</p>
+          </div>
+          <div class="about-card">
+            <div class="icon-box">
+              <img src="icons/gear.png" alt="Problem Solver" />
+            </div>
+            <h3>Problem Solver</h3>
+            <p>
+              I love finding elegant solutions to challenging frontend bugs.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="icon-box">
+              <img src="icons/focus.png" alt="User Focused" />
+            </div>
+            <h3>User Focused</h3>
+            <p>
+              I thrive in collaborative team environments and value clear
+              communication.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="icon-box">
+              <img src="icons/code.png" alt="Clean code advocate" />
+            </div>
+            <h3>Clean Code Advocate</h3>
+            <p>
+              I quickly adapt to new tools and technologies to grow
+              continuously.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="connect" class="glass-section">
+      <div class="content">
+        <h2 class="gradient-heading">Connect</h2>
+        <div class="social-icons">
+          <a href="mailto:pravanya@example.com" class="icon-btn" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            class="icon-btn"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com"
+            target="_blank"
+            class="icon-btn"
+            title="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            class="icon-btn"
+            title="Instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <form id="contact-form" class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      location.href = location.pathname + "#home";
+    </script>
+  </body>
+</html>
