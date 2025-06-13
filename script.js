@@ -108,3 +108,14 @@ const form = document.getElementById("contact-form");
     }, 500); // simulate slight delay
   });
 
+  window.addEventListener("DOMContentLoaded", () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get("success") === "true") {
+    const successMsg = document.createElement("p");
+    successMsg.textContent = "✅ Message sent successfully!";
+    successMsg.style.color = "#10b981";
+    successMsg.style.fontWeight = "600";
+    document.querySelector("#contact-form").appendChild(successMsg);
+  }
+});
+
