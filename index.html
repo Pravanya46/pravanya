@@ -27,8 +27,8 @@
         <div class="nav-links">
           <a href="#home" class="nav-link active">Home</a>
           <a href="#skills" class="nav-link">Skills</a>
-          <a href="#projects" class="nav-link">Projects</a>
-          <a href="#experience" class="nav-link">Experience</a>
+          <!-- <a href="#projects" class="nav-link">Projects</a> -->
+          <a href="#experience" class="nav-link">My Journey</a>
           <a href="#about" class="nav-link">About</a>
           <a href="#connect" class="nav-link">Connect</a>
           <button id="dark-toggle" aria-label="Toggle dark mode">🌙</button>
@@ -70,7 +70,7 @@
       </div>
     </section>
 
-    <section id="projects" class="glass-section">
+    <!-- <section id="projects" class="glass-section">
       <div class="content">
         <h2 class="gradient-heading">Projects</h2>
         <ul>
@@ -88,12 +88,12 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
 
     <section id="experience" class="glass-section">
       <div class="content">
-        <h2 class="gradient-heading">Experience</h2>
-        <ul>
+        <h2 class="gradient-heading">My Journey</h2>
+        <!-- <ul>
           <li>
             <strong>Portfolio Website:</strong> Built a responsive portfolio
             using React and Tailwind.
@@ -106,7 +106,20 @@
             <strong>Weather App:</strong> Fetches real-time weather data using
             API.
           </li>
-        </ul>
+        </ul> -->
+        <p>
+          I work as a web designer and front-end developer in an MNC, building
+          modern, responsive interfaces. Skilled in HTML5, CSS3, Tailwind CSS,
+          and JavaScript to craft visually appealing UIs. Experienced in React
+          for developing dynamic, component-based web applications. Collaborate
+          with backend teams to integrate REST APIs and optimize site
+          performance. Follow Agile methodology, actively participating in
+          sprint planning and stand-up meetings. Use Git for version control and
+          Jira for task tracking and efficient workflow management. Focus on
+          creating accessible, cross-browser-compatible, and mobile-friendly
+          designs. Passionate about clean code, reusable components, and
+          enhancing user experience.
+        </p>
       </div>
     </section>
 
@@ -116,38 +129,46 @@
         <div class="about-cards">
           <div class="about-card">
             <div class="icon-box">
-              <img src="icons/bulb.png" alt="Creative Thinker" />
+              <img src="bulb.png" alt="Creative Thinker" />
             </div>
             <h3>Creative Thinker</h3>
-            <p>I enjoy brainstorming and designing user-friendly interfaces.</p>
+            <p>
+              I approach challenges with imagination and originality, blending
+              logic with design. Creating intuitive, user-friendly experiences
+              is where my creativity thrives.
+            </p>
           </div>
           <div class="about-card">
             <div class="icon-box">
-              <img src="icons/gear.png" alt="Problem Solver" />
+              <img src="gear.png" alt="Problem Solver" />
             </div>
             <h3>Problem Solver</h3>
             <p>
-              I love finding elegant solutions to challenging frontend bugs.
+              I enjoy dissecting complex issues and turning them into clean,
+              workable solutions. Debugging and optimizing code excites me as
+              much as creating new features.
             </p>
           </div>
           <div class="about-card">
             <div class="icon-box">
-              <img src="icons/focus.png" alt="User Focused" />
+              <img src="focus.png" alt="User Focused" />
             </div>
             <h3>User Focused</h3>
             <p>
-              I thrive in collaborative team environments and value clear
-              communication.
+              I prioritize user needs and empathy in every design and code
+              decision. Crafting seamless, accessible interfaces ensures
+              meaningful interaction.
             </p>
           </div>
           <div class="about-card">
             <div class="icon-box">
-              <img src="icons/code.png" alt="Clean code advocate" />
+              <img src="code.png" alt="Clean code advocate" />
             </div>
             <h3>Clean Code Advocate</h3>
             <p>
-              I quickly adapt to new tools and technologies to grow
-              continuously.
+              I believe in writing code that is readable, reusable, and
+              scalable. Simplicity and clarity are my core principles for
+              maintainable development.
             </p>
           </div>
         </div>
@@ -158,49 +179,58 @@
       <div class="content">
         <h2 class="gradient-heading">Connect</h2>
         <div class="social-icons">
-          <a href="mailto:pravanya@example.com" class="icon-btn" title="Email">
+          <a href="mailto:knspravanya@gmail.com" class="icon-btn" title="Email">
             <i class="fas fa-envelope"></i>
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/pravanya-k-n-s-633aa7207"
             target="_blank"
             class="icon-btn"
             title="LinkedIn"
           >
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a
+          <!-- <a
             href="https://github.com"
             target="_blank"
             class="icon-btn"
             title="GitHub"
           >
             <i class="fab fa-github"></i>
-          </a>
-          <a
+          </a> -->
+          <!-- <a
             href="https://instagram.com"
             target="_blank"
             class="icon-btn"
             title="Instagram"
           >
             <i class="fab fa-instagram"></i>
-          </a>
+          </a> -->
         </div>
-        <form id="contact-form" class="contact-form">
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
-      </div>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
-      </div>
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-      </div>
-      <button type="submit" class="submit-btn">Send Message</button>
-    </form>
+        <form
+          action="https://formsubmit.co/pravanyasakthivel@gmail.com"
+          method="POST"
+          class="contact-form form-group"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="10"
+            required
+          ></textarea>
+
+          <!-- Anti-spam honeypot field -->
+          <input type="text" name="_honey" style="display: none" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="" />
+
+          <button type="submit" class="submit-btn">Send Message</button>
+          <p id="success-msg" style="display: none; color: #10b981; font-weight: 600;">
+        ✅ Message sent successfully!
+      </p>
+        </form>
       </div>
     </section>
 

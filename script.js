@@ -90,3 +90,21 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
   e.target.reset();
 });
 
+const form = document.getElementById("contact-form");
+  const successMsg = document.getElementById("success-msg");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    // Simulate successful submission (replace this part with real email service if needed)
+    setTimeout(() => {
+      successMsg.style.display = "block";
+      form.reset();
+
+      // Hide message after 4 seconds (optional)
+      setTimeout(() => {
+        successMsg.style.display = "none";
+      }, 4000);
+    }, 500); // simulate slight delay
+  });
+
