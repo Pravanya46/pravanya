@@ -464,6 +464,12 @@ body.light-mode .resume-btn:hover {
   text-decoration: none;
 }
 
+.icon-btn {
+  @media (max-width: 768px) {
+    height: 60px;
+  }
+}
+
 .icon-btn:hover {
   background: rgba(255, 255, 255, 0.3);
   transform: scale(1.1);
